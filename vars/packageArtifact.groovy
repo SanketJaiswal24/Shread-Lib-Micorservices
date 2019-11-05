@@ -1,4 +1,5 @@
-def packageArtifact(){
+def call()
+{
     stage("Package artifact") {
         sh "mvn package"
     }
